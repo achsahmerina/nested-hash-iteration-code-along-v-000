@@ -1,4 +1,4 @@
-require 'pry'
+
 
   # This is the array we will be passing into the remove_strawberry method
   contacts = {
@@ -20,5 +20,5 @@ def remove_strawberry(contacts)
       if attribute == :favorite_ice_cream_flavors
      binding.pry
    end
-end
+ end
 end
